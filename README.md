@@ -1,21 +1,24 @@
-<div align="center">
+# Hi there! I'm Abhinav Tiwary 👋
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&color=00D2FF&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Abhinav+Tiwary;AI+%2F+ML+Engineer;Building+Leakage-Free+ML+%26+Agentic+LLM+Systems)](https://github.com/abhinavtiwary15)
+## AI/ML Engineer | Building Leakage-Free ML & Agentic LLM Systems
 
-</div>
+- 🔭 I'm a B.Tech CS (AI & ML) student at Arka Jain University
+- 🌱 Currently exploring MLOps/model-serving at scale, and deeper agentic security tooling
+- 👯 Looking to collaborate on production-grade ML pipelines and agentic LLM systems
+- 💬 Ask me about threshold calibration, leakage-free pipelines, or multi-agent orchestration without heavy frameworks
+- 📫 Reach me: abhinavtiwary498@gmail.com
+- 😄 Pronouns: He/Him
 
-## 👋 About Me
+<img align="right" alt="coding" width="375" height="250" src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif">
 
-B.Tech CS (AI & ML) student at Arka Jain University, and an AI/ML engineer who cares more about checking for target leakage and deriving the right economic threshold than chasing inflated benchmark scores. Comfortable across the full ML lifecycle — preprocessing messy real-world data strictly inside CV folds, handling extreme class imbalance, and building agentic LLM workflows with deterministic safety gates instead of trusting the model blindly.
+---
+
+## 🎓 Background
 
 - 🎓 Microsoft Learn Student Ambassador (MLSA)
 - 💼 Former AI/ML Engineer Intern at Venturing Digitally — owned the tool-calling and orchestration layer solo
 - 🏆 Top 78 of hundreds of teams across Asia at Google Cloud's APAC GenAI Hackathon
 - 🛠️ Founded **Students for Startups**, connecting student builders with early-stage founders
-- 🎯 Currently exploring: MLOps/model-serving at scale, and deeper agentic security tooling
-- 💬 Ask me about: threshold calibration, leakage-free pipelines, or multi-agent orchestration without heavy frameworks
-- 📫 Reach me: abhinavtiwary498@gmail.com
-- 😄 Pronouns: He/Him
 
 ---
 
@@ -56,21 +59,21 @@ B.Tech CS (AI & ML) student at Arka Jain University, and an AI/ML engineer who c
 
 ## 🚀 Featured Systems
 
-### 🧠 Mitra AI — NLP Intervention & Human Reconnection Pipeline
-`FastAPI` · `spaCy` · `PostgreSQL` · `Streamlit` · `Docker`
-An anti-engagement gate that locks chat sessions until a real-world social outreach action is reported — deterministic crisis detection runs independent of the LLM. Swappable provider abstraction (Groq/Gemini/Mistral), 34 automated tests.
+### 🏢 DecisionForge — GST Audit Intelligence Platform
+`React 19` · `Node.js/Express 5` · `Google BigQuery` · `Gemini`
+Reconciles corporate purchase registers against government GSTR-2B filings across 7 statutory discrepancy tiers, where a mismatch means real financial penalties under Section 16(2)(aa) of the CGST Act. Every AI-generated audit figure is cross-checked against raw invoice data by a numeric-grounding verifier — if it doesn't trace back, it's discarded in favor of a deterministic template instead of trusting the model.
+
+### 🛡️ AgentGuard — Autonomous AI Security Operations Center
+`FastAPI` · `Azure OpenAI (GPT-4o)` · `React` · `WebSocket`
+A 5-agent SOC (Sentinel, Oracle, Nexus, Striker, Herald) handling real-time threat triage, RAG-based investigation over MITRE ATT&CK/CVE data, and automated containment. Built on a custom typed async agent framework instead of LangChain/AutoGen, with local in-memory fallbacks enabling full offline operation with zero paid cloud dependency.
 
 ### 💳 Credit Card Fraud Detection — Imbalance-Calibrated Classifier
 `scikit-learn` · `XGBoost` · `imbalanced-learn (SMOTE)` · `Streamlit`
-Extreme 578:1 imbalance across 284,807 transactions. SMOTE and cyclical time features strictly isolated inside CV folds; threshold swept to 0.9793, lifting precision from 36.1% to 87.5% at 78.6% recall.
+Extreme 578:1 imbalance across 284,807 transactions. SMOTE and cyclical time features strictly isolated inside CV folds; threshold swept to 0.9793, lifting precision from 36.1% to 87.5% at 78.6% recall — because a 99.7% accuracy number is meaningless when "always predict not-fraud" gets you there too.
 
-### 📉 Customer Churn Prediction — Cost-Optimized Classification
-`scikit-learn` · `XGBoost` · `LightGBM` · `Streamlit`
-Framed churn as an economic decision ($1,000 missed-churn cost vs. $50 retention outreach), deriving τ* = 0.09 to lift recall from 56.1% to 95.7% — an estimated $45,000 reduction in holdout cost.
-
-### 🏠 Bengaluru House Price Prediction — Leakage Diagnosis & Fix
-`scikit-learn` · `XGBoost` · `pandas` · `joblib`
-Diagnosed test R² (0.832) implausibly beating CV R² (0.696) — traced to target-derived outlier filtering computed before the train/test split. Fixed by restricting filtering to training folds; CV and test scores converged to 0.543/0.561.
+### 🔎 ResearchMind — Multi-Agent Research Pipeline with Citation Verification
+`LangGraph` · `Tavily Search` · `Python`
+A Writer/Critic feedback loop in LangGraph initially looked great — until an audit found 66% of citations were fabricated DOIs invented to satisfy the Critic. Fixed by routing identified gaps back through live web search and capping evaluation scores below 7 until every claim is independently grounded against scraped page text.
 
 [See all projects →](https://github.com/abhinavtiwary15?tab=repositories)
 
